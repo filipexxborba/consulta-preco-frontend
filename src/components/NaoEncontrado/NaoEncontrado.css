@@ -1,0 +1,9 @@
+.erro p {
+  padding: 0 64px;
+  text-align: center;
+  font-size: 18px;
+  color: #767676;
+  margin-bottom: 64px;
+  display: block;
+  animation: showInAnimantion 0.3s ease-in alternate;
+}

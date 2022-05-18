@@ -1,0 +1,20 @@
+.loading {
+  display: block;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 32px auto;
+  border: 10px solid #eaeaea;
+  border-top: 10px solid #ff8500;
+  border-bottom: 10px solid #ff8500;
+  animation: rotateLoading infinite 0.8s ease-in-out;
+}
+
+@keyframes rotateLoading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,25 @@
+.header {
+  background: #000;
+  color: #fff;
+  box-shadow: 0px -17px 80px rgba(0, 0, 0, 0.34),
+    0px -7.85962px 36.9864px rgba(0, 0, 0, 0.25217),
+    0px -4.49709px 21.1628px rgba(0, 0, 0, 0.213106),
+    0px -2.7297px 12.8457px rgba(0, 0, 0, 0.183582),
+    0px -1.64477px 7.74008px rgba(0, 0, 0, 0.156418),
+    0px -0.915912px 4.31018px rgba(0, 0, 0, 0.126894),
+    0px -0.393927px 1.85378px rgba(0, 0, 0, 0.0878304);
+}
+
+.header .container {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header svg {
+  cursor: pointer;
+  fill: #ff8500;
+}
